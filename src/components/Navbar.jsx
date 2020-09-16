@@ -10,9 +10,9 @@ function Navbar() {
             <ul>
                 <div><Link to ='/'>Home</Link></div>
                 <div><Link to='/regist'>Regsiter Form</Link></div>
-                <div><Link to='/to-uppercase'></Link></div>
-                <div><Link to='/bmi-calculator'></Link></div>
-                <div><Link to='/to-do-list'></Link></div>
+                <div><Link to='/bmi-calculator'>BMI Calculator</Link></div>
+                <div><Link to='/to-upper-case'>To Uppercase</Link></div>
+                <div><Link to='/to-do'>To Do List</Link></div>
             </ul>
             </nav>
         </div>
