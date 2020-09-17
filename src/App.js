@@ -6,7 +6,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Regist from "./pages/Regist";
 import BMIcalculator from "./pages/BMIcalculator";
-import Touppercase from "./pages/Touppercase";
+import Uppercase from "./pages/Touppercase";
 import Todo from './pages/Todo'
 
 //components
@@ -33,7 +33,7 @@ function App() {
           </Route>
 
           <Route path='/to-upper-case'>
-            <Touppercase />
+            <Uppercase />
           </Route>
 
           <Route path='/to-do'>
