@@ -39,7 +39,7 @@ export default function BMIcalculator() {
 
     return (
         <div>
-            <h1>your BMI is {typeof(userBMI)}</h1>
+            <h1>your BMI is {userBMI}</h1>
             <h1>you are categorized as {bmiResult}</h1>
 
             <input type='number' name = 'weightKG' onChange ={itemHandle}/>
